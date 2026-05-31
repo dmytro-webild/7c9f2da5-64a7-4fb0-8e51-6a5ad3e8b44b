@@ -65,7 +65,6 @@ export default function Page() {
           ariaLabel="Hero section"
           imagePosition="right"
           fixedMediaHeight={true}
-          useInvertedBackground={false}
         />
       </div>
       <div id="about" data-section="about" className={`${publicSans.variable} ${inter.variable}`}>
