@@ -92,12 +92,12 @@ export default function Page() {
       <div id="oriflame-products" data-section="oriflame-products" className={`${publicSans.variable} ${inter.variable}`}>
         <ProductCardThree
           products={[
-            { "id": "oriflame-1", "name": "GIORDANI GOLD ESSENZA ", "price": "$18.00", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780254338556-lbackchy.jpg", "imageAlt": "Vibrant red Oriflame lipstick" },
-            { "id": "oriflame-2", "name": "NovAge Supreme Cleansing Gel", "price": "$25.00", "imageSrc": "http://img.b2bpic.net/free-photo/liquid-facial-skin-care-product-white-background-isolated_169016-26906.jpg", "imageAlt": "Oriflame NovAge cleansing gel" },
-            { "id": "oriflame-3", "name": "Giordani Gold Essenza Parfum", "price": "$60.00", "imageSrc": "http://img.b2bpic.net/free-photo/front-view-rectangular-cologne-bottle-branch-rotten-wood-beige-background_140725-145548.jpg", "imageAlt": "Elegant Oriflame Giordani Gold perfume bottle" },
-            { "id": "oriflame-4", "name": "OnColour Mono Eye Shadow", "price": "$12.00", "imageSrc": "http://img.b2bpic.net/free-photo/flat-lay-frame-with-make-up-brushes-pink-background_23-2148301843.jpg", "imageAlt": "Colorful Oriflame OnColour eyeshadow palette" },
-            { "id": "oriflame-5", "name": "EverLasting Sync Foundation", "price": "$30.00", "imageSrc": "http://img.b2bpic.net/free-photo/foundation-product-branding-still-life_23-2149665122.jpg", "imageAlt": "Oriflame EverLasting Sync foundation" },
-            { "id": "oriflame-6", "name": "Love Nature Body Lotion", "price": "$15.00", "imageSrc": "http://img.b2bpic.net/free-photo/close-up-photo-fragrance-bottle-with-flowers_114579-51645.jpg", "imageAlt": "Oriflame Love Nature body lotion" }
+            { "id": "oriflame-1", "name": "GIORDANI GOLD ESSENZA ", "price": "₦18.00", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780254338556-lbackchy.jpg", "imageAlt": "Vibrant red Oriflame lipstick" },
+            { "id": "oriflame-2", "name": "NovAge Supreme Cleansing Gel", "price": "₦25.00", "imageSrc": "http://img.b2bpic.net/free-photo/liquid-facial-skin-care-product-white-background-isolated_169016-26906.jpg", "imageAlt": "Oriflame NovAge cleansing gel" },
+            { "id": "oriflame-3", "name": "Giordani Gold Essenza Parfum", "price": "₦60.00", "imageSrc": "http://img.b2bpic.net/free-photo/front-view-rectangular-cologne-bottle-branch-rotten-wood-beige-background_140725-145548.jpg", "imageAlt": "Elegant Oriflame Giordani Gold perfume bottle" },
+            { "id": "oriflame-4", "name": "OnColour Mono Eye Shadow", "price": "₦12.00", "imageSrc": "http://img.b2bpic.net/free-photo/flat-lay-frame-with-make-up-brushes-pink-background_23-2148301843.jpg", "imageAlt": "Colorful Oriflame OnColour eyeshadow palette" },
+            { "id": "oriflame-5", "name": "EverLasting Sync Foundation", "price": "₦30.00", "imageSrc": "http://img.b2bpic.net/free-photo/foundation-product-branding-still-life_23-2149665122.jpg", "imageAlt": "Oriflame EverLasting Sync foundation" },
+            { "id": "oriflame-6", "name": "Love Nature Body Lotion", "price": "₦15.00", "imageSrc": "http://img.b2bpic.net/free-photo/close-up-photo-fragrance-bottle-with-flowers_114579-51645.jpg", "imageAlt": "Oriflame Love Nature body lotion" }
           ]}
           gridVariant="bento-grid"
           animationType="slide-up"
@@ -125,12 +125,12 @@ export default function Page() {
       <div id="ankara-fabrics" data-section="ankara-fabrics" className={`${publicSans.variable} ${inter.variable}`}>
         <ProductCardThree
           products={[
-            { "id": "ankara-1", "name": "Royal Blue Geometric Ankara", "price": "$35.00/yard", "imageSrc": "http://img.b2bpic.net/free-photo/close-up-colorful-vintage-collar_23-2148237594.jpg", "imageAlt": "Royal blue geometric Ankara fabric roll" },
-            { "id": "ankara-2", "name": "Crimson Floral Ankara Print", "price": "$38.00/yard", "imageSrc": "http://img.b2bpic.net/free-photo/festive-ribbons-scissors-hips-white-background_114579-24042.jpg", "imageAlt": "Crimson red floral Ankara fabric roll" },
-            { "id": "ankara-3", "name": "Elegant Purple Swirl Ankara", "price": "$36.00/yard", "imageSrc": "http://img.b2bpic.net/free-vector/background-with-green-blue-red-aztec-shapes_1271-49.jpg", "imageAlt": "Elegant purple swirl Ankara fabric roll" },
-            { "id": "ankara-4", "name": "Earth Tone Abstract Ankara", "price": "$34.00/yard", "imageSrc": "http://img.b2bpic.net/free-vector/flat-design-retro-renew-pattern_23-2149685196.jpg", "imageAlt": "Earth tone abstract Ankara fabric roll" },
-            { "id": "ankara-5", "name": "Monochrome Bold Line Ankara", "price": "$37.00/yard", "imageSrc": "http://img.b2bpic.net/free-photo/cute-small-height-african-american-girl-with-dreadlocks-wear-coloured-yellow-dress-posed-sunset_627829-2760.jpg", "imageAlt": "Monochrome bold line Ankara fabric roll" },
-            { "id": "ankara-6", "name": "Tropical Green Leaf Ankara", "price": "$39.00/yard", "imageSrc": "http://img.b2bpic.net/free-photo/man-covering-face-with-palms-disbelief-feeling-upset-studio-background_482257-98107.jpg", "imageAlt": "Tropical green leaf Ankara fabric roll" }
+            { "id": "ankara-1", "name": "Royal Blue Geometric Ankara", "price": "₦35.00/yard", "imageSrc": "http://img.b2bpic.net/free-photo/close-up-colorful-vintage-collar_23-2148237594.jpg", "imageAlt": "Royal blue geometric Ankara fabric roll" },
+            { "id": "ankara-2", "name": "Crimson Floral Ankara Print", "price": "₦38.00/yard", "imageSrc": "http://img.b2bpic.net/free-photo/festive-ribbons-scissors-hips-white-background_114579-24042.jpg", "imageAlt": "Crimson red floral Ankara fabric roll" },
+            { "id": "ankara-3", "name": "Elegant Purple Swirl Ankara", "price": "₦36.00/yard", "imageSrc": "http://img.b2bpic.net/free-vector/background-with-green-blue-red-aztec-shapes_1271-49.jpg", "imageAlt": "Elegant purple swirl Ankara fabric roll" },
+            { "id": "ankara-4", "name": "Earth Tone Abstract Ankara", "price": "₦34.00/yard", "imageSrc": "http://img.b2bpic.net/free-vector/flat-design-retro-renew-pattern_23-2149685196.jpg", "imageAlt": "Earth tone abstract Ankara fabric roll" },
+            { "id": "ankara-5", "name": "Monochrome Bold Line Ankara", "price": "₦37.00/yard", "imageSrc": "http://img.b2bpic.net/free-photo/cute-small-height-african-american-girl-with-dreadlocks-wear-coloured-yellow-dress-posed-sunset_627829-2760.jpg", "imageAlt": "Monochrome bold line Ankara fabric roll" },
+            { "id": "ankara-6", "name": "Tropical Green Leaf Ankara", "price": "₦39.00/yard", "imageSrc": "http://img.b2bpic.net/free-photo/man-covering-face-with-palms-disbelief-feeling-upset-studio-background_482257-98107.jpg", "imageAlt": "Tropical green leaf Ankara fabric roll" }
           ]}
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
