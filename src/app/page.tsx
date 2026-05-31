@@ -54,7 +54,7 @@ export default function Page() {
         <HeroSplit
           title="Experience Beauty & Culture with MICHODAN"
           description="Discover premium Oriflame products for radiant beauty and exquisite Ankara fabrics to express your unique style. MICHODAN brings quality and tradition together."
-          background={{"variant":"blurBottom"}}
+          background={{"variant":"plain"}}
           buttons={[
             { "text": "Shop Oriflame", "href": "#oriflame-products" },
             { "text": "Explore Ankara", "href": "#ankara-fabrics" }
