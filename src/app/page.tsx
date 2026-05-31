@@ -59,7 +59,7 @@ export default function Page() {
             { "text": "Shop Oriflame", "href": "#oriflame-products" },
             { "text": "Explore Ankara", "href": "#ankara-fabrics" }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780252970485-vtk8cyim.jpg"
+          imageSrc="https://img.b2bpic.net/premium-photo/african-american-female-fashion-model-wearing-traditional-african-attire-confidently-posing_1281490-8020.jpg?id=367433186"
           imageAlt="Woman with Oriflame beauty products and vibrant Ankara fabric, representing MICHODAN's offerings"
           mediaAnimation="slide-up"
           ariaLabel="Hero section"
