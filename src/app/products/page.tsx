@@ -1,6 +1,7 @@
 "use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
+import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 
 import { Public_Sans } from "next/font/google";
@@ -28,23 +29,37 @@ export default function Page() {
       secondaryButtonStyle="solid"
       headingFontWeight="medium"
     >
+      <div id="nav" data-section="nav" className={`${publicSans.variable} ${inter.variable}`}>
+        <NavbarStyleApple
+          brandName="MICHODAN"
+          navItems={[
+            { "name": "Home", "id": "#home" },
+            { "name": "About", "id": "#about" },
+            { "name": "Ankara Products", "id": "/products" },
+            { "name": "Testimonials", "id": "#testimonials" },
+            { "name": "FAQ", "id": "#faq" },
+            { "name": "Contact", "id": "#contact" }
+          ]}
+        />
+      </div>
       <div id="products" data-section="products" className={`${publicSans.variable} ${inter.variable}`}>
         <ProductCardThree
           products={[
-            { "id": "oriflame-1", "name": "GIORDANI GOLD ESSENZA ", "price": "₦70,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780254338556-lbackchy.jpg", "imageAlt": "Vibrant red Oriflame lipstick" },
-            { "id": "oriflame-2", "name": "Milk and honey sugar scrub ", "price": "₦24,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312219700-whgxfofd.jpg", "imageAlt": "Oriflame NovAge cleansing gel" },
-            { "id": "oriflame-3", "name": "Wellosoph meal replacement  ", "price": "₦149,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312219700-3ezbr571.jpg", "imageAlt": "Elegant Oriflame Giordani Gold perfume bottle" },
-            { "id": "oriflame-4", "name": "Wellosophy omega 3", "price": "₦46,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312583928-g6vfdlam.jpg", "imageAlt": "Colorful Oriflame OnColour eyeshadow palette" },
-            { "id": "oriflame-5", "name": "EverLasting Sync Foundation", "price": "₦26,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312598400-ash6apnl.jpg", "imageAlt": "Oriflame EverLasting Sync foundation" },
-            { "id": "oriflame-6", "name": "Wellosophy wellness pack ", "price": "₦90,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312499662-mzjamkkh.jpg", "imageAlt": "Oriflame Love Nature body lotion" }
+            { "id": "ankara-1", "name": "Blue Geometric Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149355-l0vwfoiv.jpg", "imageAlt": "Royal blue geometric Ankara fabric roll" },
+            { "id": "ankara-2", "name": "Purpule Ankara Print", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149355-3pixiz50.jpg", "imageAlt": "Crimson red floral Ankara fabric roll" },
+            { "id": "ankara-3", "name": "Orange leaf print Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149356-3fuwv0b2.jpg", "imageAlt": "Elegant purple swirl Ankara fabric roll" },
+            { "id": "ankara-4", "name": "Red Abstract Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149355-2qhvewhp.jpg", "imageAlt": "Earth tone abstract Ankara fabric roll" },
+            { "id": "ankara-5", "name": "Monochrome Bold Line Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310631090-5s8xmz2x.jpg", "imageAlt": "Monochrome bold line Ankara fabric roll" },
+            { "id": "ankara-6", "name": "Tropical yellow Leaf Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149355-prg683pr.jpg", "imageAlt": "Tropical green leaf Ankara fabric roll" }
           ]}
-          gridVariant="bento-grid"
+          gridVariant="uniform-all-items-equal"
           animationType="slide-up"
-          title="Our Curated Oriflame Collection"
-          description="Explore the best of Oriflame, from luxurious fragrances to essential skincare."
+          title="MICHODAN's Exclusive Ankara Collection"
+          description="Browse our diverse selection of vibrant and high-quality Ankara fabrics, perfect for any fashion statement."
           textboxLayout="default"
           useInvertedBackground={true}
-          ariaLabel="Oriflame products showcase"
+          uniformGridCustomHeightClasses="min-h-95 2xl:min-h-105"
+          ariaLabel="Ankara fabric collection"
         />
       </div>
     </ThemeProvider>
