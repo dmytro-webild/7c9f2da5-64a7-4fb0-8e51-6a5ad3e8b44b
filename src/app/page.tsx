@@ -5,7 +5,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import FeatureCardNineteen from '@/components/sections/feature/FeatureCardNineteen';
-import ProductCardThree from '@/components/sections/product/ProductCardThree';
+
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
@@ -42,8 +42,7 @@ export default function Page() {
           navItems={[
             { "name": "Home", "id": "#home" },
             { "name": "About", "id": "#about" },
-            { "name": "Oriflame Products", "id": "/products" },
-            { "name": "Ankara", "id": "#ankara-fabrics" },
+            { "name": "Ankara Products", "id": "/products" },
             { "name": "Testimonials", "id": "#testimonials" },
             { "name": "FAQ", "id": "#faq" },
             { "name": "Contact", "id": "#contact" }
@@ -56,8 +55,7 @@ export default function Page() {
           description="Discover premium Oriflame products for radiant beauty and exquisite Ankara fabrics to express your unique style. MICHODAN brings quality and tradition together."
           background={{"variant":"plain"}}
           buttons={[
-            { "text": "Shop Oriflame", "href": "/products" },
-            { "text": "Explore Ankara", "href": "#ankara-fabrics" }
+            { "text": "Explore Ankara", "href": "/products" }
           ]}
           imageSrc="https://img.b2bpic.net/premium-photo/african-american-female-fashion-model-wearing-traditional-african-attire-confidently-posing_1281490-8020.jpg?id=367433186"
           imageAlt="Woman with Oriflame beauty products and vibrant Ankara fabric, representing MICHODAN's offerings"
@@ -103,26 +101,7 @@ export default function Page() {
           ariaLabel="Ankara fabric features"
         />
       </div>
-      <div id="ankara-fabrics" data-section="ankara-fabrics" className={`${publicSans.variable} ${inter.variable}`}>
-        <ProductCardThree
-          products={[
-            { "id": "ankara-1", "name": "Blue Geometric Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149355-l0vwfoiv.jpg", "imageAlt": "Royal blue geometric Ankara fabric roll" },
-            { "id": "ankara-2", "name": "Purpule Ankara Print", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149355-3pixiz50.jpg", "imageAlt": "Crimson red floral Ankara fabric roll" },
-            { "id": "ankara-3", "name": "Orange leaf print Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149356-3fuwv0b2.jpg", "imageAlt": "Elegant purple swirl Ankara fabric roll" },
-            { "id": "ankara-4", "name": "Red Abstract Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149355-2qhvewhp.jpg", "imageAlt": "Earth tone abstract Ankara fabric roll" },
-            { "id": "ankara-5", "name": "Monochrome Bold Line Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310631090-5s8xmz2x.jpg", "imageAlt": "Monochrome bold line Ankara fabric roll" },
-            { "id": "ankara-6", "name": "Tropical yellow Leaf Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149355-prg683pr.jpg", "imageAlt": "Tropical green leaf Ankara fabric roll" }
-          ]}
-          gridVariant="uniform-all-items-equal"
-          animationType="slide-up"
-          title="MICHODAN's Exclusive Ankara Collection"
-          description="Browse our diverse selection of vibrant and high-quality Ankara fabrics, perfect for any fashion statement."
-          textboxLayout="default"
-          useInvertedBackground={true}
-          uniformGridCustomHeightClasses="min-h-95 2xl:min-h-105"
-          ariaLabel="Ankara fabric collection"
-        />
-      </div>
+      
       <div id="testimonials" data-section="testimonials" className={`${publicSans.variable} ${inter.variable}`}>
         <TestimonialCardThirteen
           testimonials={[
@@ -182,7 +161,10 @@ export default function Page() {
           imageAlt="Ankara pattern and cosmetic product textures"
           logoText="MICHODAN"
           columns={[
-            { "title": "Products", "items": [{ "label": "Oriflame Beauty", "href": "/products" }, { "label": "Ankara Fabrics", "href": "#ankara-fabrics" }, { "label": "Shop All", "href": "/products" }] },
+            { "title": "Products", "items": [
+                { "label": "Ankara Fabrics", "href": "/products" },
+                { "label": "Shop All Ankara", "href": "/products" }
+            ] },
             { "title": "Company", "items": [{ "label": "About Us", "href": "#about" }, { "label": "Contact Us", "href": "#contact" }, { "label": "Testimonials", "href": "#testimonials" }] },
             { "title": "Support", "items": [{ "label": "FAQ", "href": "#faq" }, { "label": "Shipping & Returns", "href": "#" }, { "label": "Privacy Policy", "href": "#" }] }
           ]}
