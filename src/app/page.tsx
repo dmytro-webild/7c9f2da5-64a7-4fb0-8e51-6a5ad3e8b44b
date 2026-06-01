@@ -42,7 +42,7 @@ export default function Page() {
           navItems={[
             { "name": "Home", "id": "#home" },
             { "name": "About", "id": "#about" },
-            { "name": "Oriflame Products", "href": "/products" },
+            { "name": "Oriflame Products", "id": "/products" },
             { "name": "Ankara", "id": "#ankara-fabrics" },
             { "name": "Testimonials", "id": "#testimonials" },
             { "name": "FAQ", "id": "#faq" },
