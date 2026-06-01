@@ -130,7 +130,7 @@ export default function Page() {
             { "id": "ankara-3", "name": "Elegant Purple Swirl Ankara", "price": "₦36.00/yard", "imageSrc": "http://img.b2bpic.net/free-vector/background-with-green-blue-red-aztec-shapes_1271-49.jpg", "imageAlt": "Elegant purple swirl Ankara fabric roll" },
             { "id": "ankara-4", "name": "Earth Tone Abstract Ankara", "price": "₦34.00/yard", "imageSrc": "http://img.b2bpic.net/free-vector/flat-design-retro-renew-pattern_23-2149685196.jpg", "imageAlt": "Earth tone abstract Ankara fabric roll" },
             { "id": "ankara-5", "name": "Monochrome Bold Line Ankara", "price": "₦37.00/yard", "imageSrc": "http://img.b2bpic.net/free-photo/cute-small-height-african-american-girl-with-dreadlocks-wear-coloured-yellow-dress-posed-sunset_627829-2760.jpg", "imageAlt": "Monochrome bold line Ankara fabric roll" },
-            { "id": "ankara-6", "name": "Tropical Green Leaf Ankara", "price": "₦39.00/yard", "imageSrc": "http://img.b2bpic.net/free-photo/man-covering-face-with-palms-disbelief-feeling-upset-studio-background_482257-98107.jpg", "imageAlt": "Tropical green leaf Ankara fabric roll" }
+            { "id": "ankara-6", "name": "Tropical Green Leaf Ankara", "price": "₦39.00/yard", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149355-prg683pr.jpg", "imageAlt": "Tropical green leaf Ankara fabric roll" }
           ]}
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
