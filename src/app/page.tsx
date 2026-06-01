@@ -97,7 +97,7 @@ export default function Page() {
             { "id": "oriflame-3", "name": "Wellosoph meal replacement  ", "price": "₦60.00", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312219700-3ezbr571.jpg", "imageAlt": "Elegant Oriflame Giordani Gold perfume bottle" },
             { "id": "oriflame-4", "name": "Wellosophy omega 3", "price": "₦12.00", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312583928-g6vfdlam.jpg", "imageAlt": "Colorful Oriflame OnColour eyeshadow palette" },
             { "id": "oriflame-5", "name": "EverLasting Sync Foundation", "price": "₦30.00", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312598400-ash6apnl.jpg", "imageAlt": "Oriflame EverLasting Sync foundation" },
-            { "id": "oriflame-6", "name": "Love Nature Body Lotion", "price": "₦15.00", "imageSrc": "http://img.b2bpic.net/free-photo/close-up-photo-fragrance-bottle-with-flowers_114579-51645.jpg", "imageAlt": "Oriflame Love Nature body lotion" }
+            { "id": "oriflame-6", "name": "Wellosophy wellness pack ", "price": "₦15.00", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312499662-mzjamkkh.jpg", "imageAlt": "Oriflame Love Nature body lotion" }
           ]}
           gridVariant="bento-grid"
           animationType="slide-up"
