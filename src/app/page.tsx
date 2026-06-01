@@ -125,7 +125,7 @@ export default function Page() {
       <div id="ankara-fabrics" data-section="ankara-fabrics" className={`${publicSans.variable} ${inter.variable}`}>
         <ProductCardThree
           products={[
-            { "id": "ankara-1", "name": "Blue Geometric Ankara", "price": "₦15,000", "imageSrc": "http://img.b2bpic.net/free-photo/close-up-colorful-vintage-collar_23-2148237594.jpg", "imageAlt": "Royal blue geometric Ankara fabric roll" },
+            { "id": "ankara-1", "name": "Blue Geometric Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149355-l0vwfoiv.jpg", "imageAlt": "Royal blue geometric Ankara fabric roll" },
             { "id": "ankara-2", "name": "Purpule Ankara Print", "price": "₦15,000", "imageSrc": "http://img.b2bpic.net/free-photo/festive-ribbons-scissors-hips-white-background_114579-24042.jpg", "imageAlt": "Crimson red floral Ankara fabric roll" },
             { "id": "ankara-3", "name": "Orange leaf print Ankara", "price": "₦15,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780310149356-3fuwv0b2.jpg", "imageAlt": "Elegant purple swirl Ankara fabric roll" },
             { "id": "ankara-4", "name": "Red Abstract Ankara", "price": "₦15,000", "imageSrc": "http://img.b2bpic.net/free-vector/flat-design-retro-renew-pattern_23-2149685196.jpg", "imageAlt": "Earth tone abstract Ankara fabric roll" },
