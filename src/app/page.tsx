@@ -42,7 +42,7 @@ export default function Page() {
           navItems={[
             { "name": "Home", "id": "#home" },
             { "name": "About", "id": "#about" },
-            { "name": "Oriflame", "id": "#oriflame-products" },
+            { "name": "Oriflame Products", "href": "/products" },
             { "name": "Ankara", "id": "#ankara-fabrics" },
             { "name": "Testimonials", "id": "#testimonials" },
             { "name": "FAQ", "id": "#faq" },
@@ -56,7 +56,7 @@ export default function Page() {
           description="Discover premium Oriflame products for radiant beauty and exquisite Ankara fabrics to express your unique style. MICHODAN brings quality and tradition together."
           background={{"variant":"plain"}}
           buttons={[
-            { "text": "Shop Oriflame", "href": "#oriflame-products" },
+            { "text": "Shop Oriflame", "href": "/products" },
             { "text": "Explore Ankara", "href": "#ankara-fabrics" }
           ]}
           imageSrc="https://img.b2bpic.net/premium-photo/african-american-female-fashion-model-wearing-traditional-african-attire-confidently-posing_1281490-8020.jpg?id=367433186"
@@ -87,25 +87,6 @@ export default function Page() {
           textboxLayout="default"
           useInvertedBackground={false}
           ariaLabel="Oriflame product features"
-        />
-      </div>
-      <div id="oriflame-products" data-section="oriflame-products" className={`${publicSans.variable} ${inter.variable}`}>
-        <ProductCardThree
-          products={[
-            { "id": "oriflame-1", "name": "GIORDANI GOLD ESSENZA ", "price": "₦70,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780254338556-lbackchy.jpg", "imageAlt": "Vibrant red Oriflame lipstick" },
-            { "id": "oriflame-2", "name": "Milk and honey sugar scrub ", "price": "₦24,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312219700-whgxfofd.jpg", "imageAlt": "Oriflame NovAge cleansing gel" },
-            { "id": "oriflame-3", "name": "Wellosoph meal replacement  ", "price": "₦149,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312219700-3ezbr571.jpg", "imageAlt": "Elegant Oriflame Giordani Gold perfume bottle" },
-            { "id": "oriflame-4", "name": "Wellosophy omega 3", "price": "₦46,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312583928-g6vfdlam.jpg", "imageAlt": "Colorful Oriflame OnColour eyeshadow palette" },
-            { "id": "oriflame-5", "name": "EverLasting Sync Foundation", "price": "₦26,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312598400-ash6apnl.jpg", "imageAlt": "Oriflame EverLasting Sync foundation" },
-            { "id": "oriflame-6", "name": "Wellosophy wellness pack ", "price": "₦90,000", "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EV7r8jH6qVm4I9M2ve5zaDdSj6/uploaded-1780312499662-mzjamkkh.jpg", "imageAlt": "Oriflame Love Nature body lotion" }
-          ]}
-          gridVariant="bento-grid"
-          animationType="slide-up"
-          title="Our Curated Oriflame Collection"
-          description="Explore the best of Oriflame, from luxurious fragrances to essential skincare."
-          textboxLayout="default"
-          useInvertedBackground={true}
-          ariaLabel="Oriflame products showcase"
         />
       </div>
       <div id="ankara-highlights" data-section="ankara-highlights" className={`${publicSans.variable} ${inter.variable}`}>
@@ -147,7 +128,7 @@ export default function Page() {
           testimonials={[
             { "id": "1", "name": "Amina S.", "handle": "@AminaStyle", "testimonial": "MICHODAN's Oriflame products transformed my skincare routine! My skin feels amazing, and I love the natural glow. The service was exceptional too.", "rating": 5, "imageSrc": "http://img.b2bpic.net/free-photo/charming-tender-lovely-coquettish-blond-woman-close-eyes-smiling-relaxed-flirty-touch-face-dreaming_1258-128885.jpg", "imageAlt": "Happy African woman smiling, holding a cosmetic product" },
             { "id": "2", "name": "Chika M.", "handle": "@ChikaFabrics", "testimonial": "The Ankara fabric I bought from MICHODAN is absolutely stunning. The colors are vibrant, and the quality is top-notch. My new dress is a head-turner!", "rating": 5, "imageSrc": "http://img.b2bpic.net/free-photo/full-shot-woman-creating-vision-board_23-2150061844.jpg", "imageAlt": "Satisfied customer with Ankara fabric" },
-            { "id": "3", "name": "Davida K.", "handle": "@DavidaBeauty", "testimonial": "I've been an Oriflame user for years, and MICHODAN offers the best selection and prices. Their prompt delivery and customer care are truly commendable.", "rating": 5, "imageSrc": "http://img.b2bpic.net/free-photo/side-view-closeup-portrait-girl-with-blonde-wavy-hair-white-modern-room-with-floor-lamp-fireplace-lady-smiling-posing-wearing-stylish-black-dress_197531-2848.jpg", "imageAlt": "Woman with elegant hairstyle" },
+            { "id": "3", "name": "Davida K.", "handle": "@DavidaBeauty", "testimonial": "I've been an Oriflame user for years, and MICHODAN offers the best selection and prices. Their prompt delivery and customer care are truly commendable.", "rating": 5, "imageSrc": "http://img.b2bpic.net/free-photo/side-view-closeup-portrait-girl-with-blonde-wavy-hair-white-modern-room-with-floor-lamp-fireplace-lady-smiling-camera_197531-2848.jpg", "imageAlt": "Woman with elegant hairstyle" },
             { "id": "4", "name": "Ngozi E.", "handle": "@NgoziThreads", "testimonial": "MICHODAN is my go-to for authentic Ankara. The prints are unique, and the fabric feels luxurious. Highly recommend for anyone looking to make a statement.", "rating": 5, "imageSrc": "http://img.b2bpic.net/free-photo/closeup-portrait-mixed-rase-woman-with-red-makeup-studio-with-hands-face-smiling-camera_633478-821.jpg", "imageAlt": "African woman with radiant complexion" },
             { "id": "5", "name": "Funke P.", "handle": "@FunkeGlow", "testimonial": "Both the Oriflame cosmetics and Ankara fabric exceeded my expectations. MICHODAN truly understands quality. I'm a happy repeat customer!", "rating": 5, "imageSrc": "http://img.b2bpic.net/free-photo/front-view-pretty-woman-with-phone_23-2148316188.jpg", "imageAlt": "Grinning woman with vibrant accessories" }
           ]}
@@ -201,7 +182,7 @@ export default function Page() {
           imageAlt="Ankara pattern and cosmetic product textures"
           logoText="MICHODAN"
           columns={[
-            { "title": "Products", "items": [{ "label": "Oriflame Beauty", "href": "#oriflame-products" }, { "label": "Ankara Fabrics", "href": "#ankara-fabrics" }, { "label": "Shop All", "href": "#home" }] },
+            { "title": "Products", "items": [{ "label": "Oriflame Beauty", "href": "/products" }, { "label": "Ankara Fabrics", "href": "#ankara-fabrics" }, { "label": "Shop All", "href": "/products" }] },
             { "title": "Company", "items": [{ "label": "About Us", "href": "#about" }, { "label": "Contact Us", "href": "#contact" }, { "label": "Testimonials", "href": "#testimonials" }] },
             { "title": "Support", "items": [{ "label": "FAQ", "href": "#faq" }, { "label": "Shipping & Returns", "href": "#" }, { "label": "Privacy Policy", "href": "#" }] }
           ]}
